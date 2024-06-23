@@ -1,8 +1,15 @@
 # medical-minds-llm
 
-This repo contains code for my team's submission for the final project of the course Advanced Natural Language Processing (CS 685) under the guidance of professor Mohit Iyyer at UMass Amherst in the Spring '24 semester. 
+## About
+This repo contains code for my team's submission for the final project of the course Advanced Natural Language Processing (CS 685) under the guidance of Professor Mohit Iyyer at UMass Amherst in the Spring '24 semester. 
+
+In the project, we combined experts LLM's using techniques such as Ensembling and Mixture of Experts and finetuned the combined as well as the base models to gain an increase in performance. We used Mistral 7B models as our base LLM models and finetuned them using QLora. 
+
+## Proposal and Final Report
+[Final Report](/https://github.com/ojasraundale/medical-minds-llm/blob/main/Final%20Report.pdf) and [Project Proposal](/https://github.com/ojasraundale/medical-minds-llm/blob/main/Project%20Proposal.pdf) can be found the repo. 
 
 
+## File Structure
 Below is the description of the folders and files in our code zip.
 
 Data & Preprocessing:
@@ -27,8 +34,7 @@ fast_lora.py
     This file is from the unsloth library. This was the one that caused issue with data type mismatch during back-propogation. We rectified the error and it needs to be used to change the code in lib/unsloth/fast_lora.py folder.
 
 
-Additioanlly, all our codes and notebooks are maintained in the below drive folder. This can be accessed using UMass Gmail accounts.:
-    https://drive.google.com/drive/folders/1GQ5I7VfgICV32bIM4Z7QUelLypdw6Mro?usp=sharing
+## Recreating all the experiments:
 
 To recreate our outputs, the files need to be run in the below order:
     1. Data & Preprocessing
