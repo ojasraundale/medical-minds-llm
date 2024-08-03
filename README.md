@@ -6,7 +6,7 @@ This repo contains code for my team's submission for the final project of the co
 In the project, we combined experts LLM's using techniques such as Ensembling and Mixture of Experts and finetuned the combined as well as the base models to gain an increase in performance. We used Mistral 7B models as our base LLM models and finetuned them using QLora. 
 
 ## Proposal and Final Report
-[Final Report](/https://github.com/ojasraundale/medical-minds-llm/blob/main/Final%20Report.pdf) and [Project Proposal](/https://github.com/ojasraundale/medical-minds-llm/blob/main/Project%20Proposal.pdf) can be found the repo. 
+[Final Report](https://github.com/ojasraundale/medical-minds-llm/blob/main/Final%20Report.pdf) and [Project Proposal](https://github.com/ojasraundale/medical-minds-llm/blob/main/Project%20Proposal.pdf) can be found the repo. 
 
 
 ## File Structure
