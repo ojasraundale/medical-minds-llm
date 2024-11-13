@@ -3,6 +3,13 @@
 ## About
 This repo contains code for my team's submission for the final project of the course Advanced Natural Language Processing (CS 685) under the guidance of Professor Mohit Iyyer at UMass Amherst in the Spring '24 semester. 
 
+Team members: 
+Aditya Chaloo (<achaloo@umass.edu>), 
+Kedarnath Kashinath Chimmad (<kchimmad@umass.edu>),
+Mayank Bumb (<mbumb@umass.edu>),
+Ojas Raundale (<oraundale@umass.edu>),
+Siddarth Suresh (<siddarthsure@umass.edu>). 
+
 In the project, we combined experts LLM's using techniques such as Ensembling and Mixture of Experts and finetuned the combined as well as the base models to gain an increase in performance. We used Mistral 7B models as our base LLM models and finetuned them using QLora. 
 
 ## Proposal and Final Report
